@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+header {
+    position: relative;
+    background-color: #ff751f;
+    max-width: 100vw;
+    max-height: 10%;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+input {
+    text-align: center;
+    font-size: 15px;
+}
+
+h1 {
+    color: #7a0000;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #f4f4f4;
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    color: #f4f4f4;
+    font-size: 19px;
+    text-align: left;
+    margin-left: 13vw;
+    margin-top: 2vh;
+}
+
+a {
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+    display: none;
+}
+
+.header_grid {
+    display: grid;
+    grid-template-columns: 1fr 6fr 0.8fr 0.3fr;
+    max-width: 100vw;
+    height: 100px;
+}
+
+.header_item_grid {
+    margin: auto;
+    align-items: center;
+}
+
+.section_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100vw;
+    height: 90%;
+    text-align: center;
+}
+
+.section_cadastro {
+    margin: auto;
+    background-color: #ff914d;
+    width: 50vw;
+    height: 90vh;
+    justify-content: center;
+    padding-top: 14vh;
+}
+
+.section_conteudo {
+    margin: auto;
+    padding-top: 5vh;
+}
+
+#search {
+    width: 24vw;
+    height: 6vh;
+    border-radius: 25px;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#lupa {
+    max-height: 43px;
+    position: absolute;
+    top: 3vh;
+    left: 58.5vw;
+}
+
+#caixa_cadastro {
+    width: 25vw;
+    height: 6vh;
+    border-radius: 8px;
+}
+
+#botao_close {
+    position: absolute;
+    left: 21vw;
+    top: 80vh;
+    max-width: 20vw;
+}
+
+#pizza {
+    position: absolute;
+    max-width: 10vw;
+    top: 16vh;
+    left: 92vw;
+}
+
+#fire_away {
+    max-width: 15vw;
+}
+
+#fogos {
+    margin-top: 14vh;
+    max-width: 45vw;
+}
+
+#apresentacao {
+    font-size: 27px;
+    color: #7a0000;
+    max-width: 30vw;
+    text-align: left;
+    line-height: 1.3;
+}
