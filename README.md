@@ -1,6 +1,6 @@
 # Pizzaria Web - Protótipo de Sistema
 
-### Acesso ao prototipo: [Clique aqui](https://bruno-ramos-de-sousa.github.io/prototipo_Site_Pizzaria/)
+Acesso ao prototipo: [Clique aqui](https://bruno-ramos-de-sousa.github.io/prototipo_Site_Pizzaria/)
 
 ## Sobre o Projeto
 Este projeto consiste no desenvolvimento de um **protótipo de site para uma pizzaria**, com o objetivo de simular um sistema real de pedidos online.
