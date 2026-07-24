@@ -58,7 +58,7 @@ function validarSenha(evento) {
     if (senha !== confirmarSenha) {
         inputSenha.style.border = "4px solid #800000";
         inputConfirmSenha.style.border = "4px solid #800000";
-        textoAvisoSenha.textContent = "Senhas diferentes digitadas!!!";
+        textoAvisoSenha.textContent =   "Senhas diferentes digitadas!!!";
         textoAvisoSenha.style.color = "#FFD700";
         textoAvisoSenha.style.display = "flex";
         return false;
