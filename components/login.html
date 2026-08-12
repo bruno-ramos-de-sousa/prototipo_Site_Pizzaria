@@ -1,67 +1,93 @@
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="stylesheet" href="../css/style.css">
-</head>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <div class="buttons-back">
-                <a href="../index.html"><img id="button-back-red" src="../img/botton_Red.png"
-                        alt="Botão redondo vermelho"></a>
-                <a href="../index.html"><img id="button-back-yellow" src="../img/botton_Yellow.png"
-                        alt="Botão redondo amarelo"></a>
-            </div>
-            <ul class="list-without-bullets">
-                <li><a href="../components/sobre.html">Sobre</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-            <form action="search" method="get">
-                <input id="search" class="caixa-pesquisa" type="text" placeholder="Buscar...">
-            </form>
-            <div class="user-greeting">
-                <p>Olá, usuário</p>
-                <a href=""><img id="user-photo" src="../img/user.png" alt=""></a>
-            </div>
-            <a href=""><img id="shopping-cart" src="../img/shoppingCart.png" alt="Carrinho de compras"></a>
-        </nav>
+      <nav>
+        <div class="buttons-back">
+          <a href="../index.html"
+            ><img
+              id="button-back-red"
+              src="../img/botton_Red.png"
+              alt="Botão redondo vermelho"
+          /></a>
+          <a href="../index.html"
+            ><img
+              id="button-back-yellow"
+              src="../img/botton_Yellow.png"
+              alt="Botão redondo amarelo"
+          /></a>
+        </div>
+        <ul class="list-without-bullets">
+          <li><a href="../components/sobre.html">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <form action="search" method="get">
+          <input
+            id="search"
+            class="caixa-pesquisa"
+            type="text"
+            placeholder="Buscar..."
+          />
+        </form>
+        <div class="user-greeting">
+          <p>Olá, usuário</p>
+          <a href=""><img id="user-photo" src="../img/user.png" alt="" /></a>
+        </div>
+      </nav>
+      <a href=""
+        ><img
+          id="shopping-cart"
+          src="../img/shoppingCart.png"
+          alt="Carrinho de compras"
+      /></a>
     </header>
     <main>
-        <section id="login">
-            <div class="body-grid">
-                <div class="container">
-                    <img id="logo-loja" src="../img/loja.png" alt="Pizzaria Irarire">
+      <section id="login">
+        <div class="body-grid">
+          <div class="container">
+            <img id="logo-loja" src="../img/loja.png" alt="Pizzaria Irarire" />
+          </div>
+          <div class="body-card-orange">
+            <aside>
+              <h2>Seja bem-vindo!</h2>
+              <p>Primeiro Acesso? <a href="cadastro.html">Cadastre-se</a></p>
+              <form action="" id="login">
+                <p>Usuário (e-mail):</p>
+                <input
+                  class="campo"
+                  id="email"
+                  type="text"
+                  placeholder="Digite seu e-mail"
+                />
+                <p id="jump-text-email"></p>
+                <p>Senha:</p>
+                <input
+                  class="campo"
+                  id="password"
+                  type="password"
+                  placeholder="Digite sua senha"
+                />
+                <div class="flex-row-unjustify">
+                  <input id="remember-me" type="checkbox" /> Lembrar-me
                 </div>
-                <div class="body-card-orange">
-                    <aside>
-                        <h2>Seja bem-vindo!</h2>
-                        <p>Primeiro Acesso? <a href="cadastro.html">Cadastre-se</a></p>
-                        <form action="" id="login">
-                            <p>Usuário (e-mail):</p>
-                            <input class="campo" id="email" type="text" placeholder="Digite seu e-mail">
-                            <p id="jump-text-email"></p>
-                            <p>Senha:</p>
-                            <input class="campo" id="password" type="password" placeholder="Digite sua senha">
-                            <div class="flex-row-unjustify">
-                                <input id="remember-me" type="checkbox"> Lembrar-me
-                            </div>
-                            <button type="submit">Entrar</button>
-                        </form>
-                    </aside>
-                </div>
-            </div>
-        </section>
+                <button type="submit">Entrar</button>
+              </form>
+            </aside>
+          </div>
+        </div>
+      </section>
     </main>
     <footer id="contato">
-        <p>Tell: (11) 99999-9999</p>
-        <p>Email: pizzariairare@gmail.com</p>
-        <small>© 2026 Pizzaria Irare. Todos os direitos reservados.</small>
+      <p>Tell: (11) 99999-9999</p>
+      <p>Email: pizzariairare@gmail.com</p>
+      <small>© 2026 Pizzaria Irare. Todos os direitos reservados.</small>
     </footer>
-</body>
-<script src="../js/script.js" defer></script>
-
+  </body>
+  <script src="../js/script.js" defer></script>
 </html>
